@@ -8,5 +8,26 @@
       <jdbc-url>jdbc:postgresql://ep-frosty-dawn-ad2mb2pu-pooler.c-2.us-east-1.aws.neon.tech:5432/postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="message-app-db-v2" uuid="7a7ab813-981c-4971-8e18-8e9e8455fb04">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ep-cool-poetry-ad0agohv-pooler.c-2.us-east-1.aws.neon.tech:5432/neondb?sslmode=require</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="mysql-db-zeke" uuid="f95924cc-2485-4491-931e-f184f1c4486e">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="clawcloud-mysql" uuid="0ea3191e-daa5-4443-87ab-6823d951e0b2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://tcp.us-west-1.clawcloudrun.com:42088</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
